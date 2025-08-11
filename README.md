@@ -19,24 +19,4 @@ It was converted from my original HTML/CSS/JS design into a modern React app for
 - **Font Awesome** for icons
 - **Google Fonts** (Poppins, Montserrat)
 
-## 📂 Folder Structure
-portfolio-react/
-├── public/
-│ ├── index.html
-│ ├── favicon.ico
-├── src/
-│ ├── components/
-│ │ ├── Header.js
-│ │ ├── Hero.js
-│ │ ├── Skills.js
-│ │ ├── Projects.js
-│ │ ├── About.js
-│ │ ├── Contact.js
-│ │ └── Footer.js
-│ ├── styles.css
-│ ├── script.js
-│ ├── App.js
-│ └── index.js
-├── package.json
-└── README.md
 
