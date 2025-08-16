@@ -45,6 +45,34 @@ export default function Projects() {
               </div>
             </div>
           </div>
+  
+          <div className="project-card">
+             <div className="project-img" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1607746882042-944635dfe10e?auto=format&fit=crop&w=500&q=80')",}}></div>
+             <div className="project-content">
+              <div className="project-text">
+                <h3>Text-to-Video Generation using Hugging Face Diffusers</h3>
+                <p>
+                  I I developed a Python-based application that generates short MP4 videos from natural language prompts using the Hugging Face Diffusers library with the damo-vilab/text-to-video-ms-1.7b model.
+                </p>
+              </div>
+              <div className="project-footer">
+                <div className="project-tags">
+                  <span className="project-tag">Python</span>
+                  <span className="project-tag">Hugging Face</span>
+                  <span className="project-tag">Diffusers</span>
+                  <span className="project-tag">AI</span>
+                </div>
+                <a
+                  href="https://huggingface.co/spaces/mukund2130/text_to_video" 
+                  target="_blank"
+                  rel="noreferrer"
+                  className="btn"
+                >
+                  View  Web App
+                </a>
+              </div>
+            </div>
+          </div>
 
           <div className="project-card">
             <div className="project-img" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?auto=format&fit=crop&w=500&q=80')" }}></div>
@@ -55,8 +83,8 @@ export default function Projects() {
               </div>
               <div className="project-footer">
                 <div className="project-tags">
-                  <span className="project-tag">JavaScript</span>
-                  <span className="project-tag">HTML</span>
+                  <span className="project-tag">React</span>
+                  <span className="project-tag">CSS</span>
                 </div>
                 <a href="https://github.com/mukund2130/Portfolio-Website" target="_blank" rel="noreferrer" className="btn">View on GitHub</a>
               </div>
