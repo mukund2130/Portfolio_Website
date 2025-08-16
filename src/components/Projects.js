@@ -28,27 +28,8 @@ export default function Projects() {
           </div>
 
           <div className="project-card">
-            <div className="project-img" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=500&q=80')" }}></div>
+            <div className="project-img" style={{ backgroundImage: "url('https://img.freepik.com/free-photo/ai-circuit-future-technology-background_53876-129770.jpg')",}}></div>
             <div className="project-content">
-              <div className="project-text">
-                <h3>EchoBot - Voice Assistant</h3>
-                <p>Python-based AI assistant that recognizes voice commands to perform actions like playing songs, providing weather updates, and answering queries.</p>
-              </div>
-              <div className="project-footer">
-                <div className="project-tags">
-                  <span className="project-tag">Python</span>
-                  <span className="project-tag">Speech Recognition</span>
-                  <span className="project-tag">APIs</span>
-                  <span className="project-tag">AI</span>
-                </div>
-                <a href="https://github.com/mukund2130/EchoBot" target="_blank" rel="noreferrer" className="btn">View on GitHub</a>
-              </div>
-            </div>
-          </div>
-  
-          <div className="project-card">
-             <div className="project-img" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1607746882042-944635dfe10e?auto=format&fit=crop&w=500&q=80')",}}></div>
-             <div className="project-content">
               <div className="project-text">
                 <h3>Text-to-Video Generation using Hugging Face Diffusers</h3>
                 <p>
@@ -70,6 +51,27 @@ export default function Projects() {
                 >
                   View  Web App
                 </a>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div className="project-card">
+            <div className="project-img" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=500&q=80')" }}></div>
+            <div className="project-content">
+              <div className="project-text">
+                <h3>EchoBot - Voice Assistant</h3>
+                <p>Python-based AI assistant that recognizes voice commands to perform actions like playing songs, providing weather updates, and answering queries.</p>
+              </div>
+              <div className="project-footer">
+                <div className="project-tags">
+                  <span className="project-tag">Python</span>
+                  <span className="project-tag">Speech Recognition</span>
+                  <span className="project-tag">APIs</span>
+                  <span className="project-tag">AI</span>
+                </div>
+                <a href="https://github.com/mukund2130/EchoBot" target="_blank" rel="noreferrer" className="btn">View on GitHub</a>
               </div>
             </div>
           </div>
